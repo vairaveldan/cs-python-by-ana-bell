@@ -32,4 +32,4 @@ while (True) :
             break
         case _:
             print("Invalid choice")
-print("final data:",data)
+print("final data: ",data)
