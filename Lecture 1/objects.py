@@ -1,5 +1,5 @@
 # program manipulate objects
-# objects has a datatype
+# objects in memory has datatype
 # program do data-things using objects
 
 a = 1 # integer 
