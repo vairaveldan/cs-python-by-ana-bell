@@ -11,3 +11,4 @@ f = (1, 2, 3) # tuple
 g = True # boolean
 h = None # NoneType
 i = 2+5j # complex
+var = type(3/3) # type
