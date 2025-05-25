@@ -17,6 +17,9 @@ print() # output : p y t h o n
 # NEGATIVE INDEXING
 for i in range(-6,0):
     print (str3[i],end=' ') # i -> -6,-5,-4,-3,-2,-1
+print() # output : p y t h o n
+for i in range(-1,-7,-1):
+    print (str3[i],end=' ') # i -> -6,-5,-4,-3,-2,-1
 print() # output : n o h t y p
 
 # slicing - access a subset of characters in the string
@@ -45,3 +48,6 @@ print(a[10:-11:-1])
 # output : 0 9 8 7 6 5 4 3 2 1
 
 
+#Len function
+str4 = "python"
+print(len(str4)) # output : 6
