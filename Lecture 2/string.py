@@ -25,9 +25,23 @@ print() # output : n o h t y p
 print(str3[0:6:1])
 # output : python
 # example 2
-print(str3[0:6:2])
-
-
+print(str3[0::2])
+# output : pto 
+# example 3
+print(str3[::-1])
+# output : nohtyp
+# example 4
+print(str3[5:0:-1])
+# output : nohty
+# example 5
+print(str3[-1:-5]) # step is always 1 if not specified
+# output : empty string
+# example 6
+print(str3[-1:-6:-1])
+# output : nohtyp
+# example 7
 a="1234567890"
 print(a[10:-11:-1])
-print(a[-1:-11:-1])
+# output : 0 9 8 7 6 5 4 3 2 1
+
+
