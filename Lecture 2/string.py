@@ -1,3 +1,7 @@
+# string is a sequence of case sensitive characters
+# string is immuttable, cannot be changed after creation
+
+
 # string arithmetic operations 
 str1 = "run"
 str2 =  "baby"
@@ -51,3 +55,5 @@ print(a[10:-11:-1])
 #Len function
 str4 = "python"
 print(len(str4)) # output : 6
+
+
