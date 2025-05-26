@@ -57,3 +57,14 @@ str4 = "python"
 print(len(str4)) # output : 6
 
 
+# string can be modified into new object by reassignin/rebound the object
+a = "old"
+print(id(a)) # address of 'a'
+a = a + "is gold"
+print (id(a)) # new address of 'a'
+
+# "old" is not delete/remove from the memory, but it detach the connection of 'a'.
+
+b= "old" # access the "old" from 'b' variable
+
+print(id(b)) # address of 'b' is same as old 'a'
