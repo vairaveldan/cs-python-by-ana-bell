@@ -13,4 +13,5 @@ while (background == wood_background) :
     else :
         print("Invalid direction. Please enter Right or Left.")
         background = wood_background
-print("you successfully escaped from the woods")
+else :
+    print("you successfully escaped from the woods")
